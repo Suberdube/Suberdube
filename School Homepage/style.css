@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
-}
 
 /* Layout */
 
@@ -43,3 +38,28 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: 'Aref Ruqaa';
+  src: url('fonts/ArefRuqaaInk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aref Ruqaa';
+  src: url('fonts/ArefRuqaaInk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+body {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  word-spacing:   0.6px;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
