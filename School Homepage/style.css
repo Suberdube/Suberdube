@@ -63,3 +63,105 @@ body {
   min-width: 1000px;
   max-width: 1400px;
 }
+
+h1 {
+  font-size: 3rem; ;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+section h2 + p {
+  text-indent: 20px;
+}
+
+/* Links */
+a {
+  color: #a66;
+  text-decoration: underline;
+}
+a:visited {
+  color: #a66;
+}
+a:focus {
+  color: #a66;
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  color: #a66;
+  text-decoration: none;
+}
+a:active {
+  color: blue;
+  font-weight: bold;
+}
+  
+  /* List styling code */
+  ul, ol {
+margin-top: 1em;
+margin-bottom: 1em;
+padding-left: 1.5em;
+  }
+li {
+  margin-bottom: 0.3em;
+  line-height: 1.5;
+}
+ul li {
+  list-style-type: square;
+}
+
+
+
+/* Navigation styling: Navigation menu:
+
+Style your navigation menu so that it harmonizes with the page.
+ */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  margin-bottom: 1em;
+}
+nav a {
+  display: block;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #a66;
+  text-align: center;
+  text-decoration: none;;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #e0e0e0;
+}
+nav a:focus {
+  background-color: #d0d0d0;
+  outline: none;
+} 
+
+/* Make it so that external links have the external link icon inserted next to the */
+/* Add PNG icon after external links */
+a[href^="http"]:after {
+  content: "";
+  display: inline-block;
+  width: 12px;        /* adjust to your icon size */
+  height: 12px;
+  margin-left: 4px;
+  background-image: url('images/linkcon.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+
