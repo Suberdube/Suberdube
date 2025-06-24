@@ -51,7 +51,7 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;;
   }
   
   nav a {
@@ -68,7 +68,6 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 1px;
   }
-
   .feature {
       width: 200px;
       float: left;
